@@ -1,0 +1,165 @@
+*, h1, h2{
+	padding: 0;
+	margin: 0;
+}
+
+
+
+/*phan green*/
+#header{
+	height: 150px;
+	background-color: #8fcf06;
+	z-index: 1;
+}
+
+#header h1{
+	color: white;
+	padding-top: 25px;
+	padding-left: 200px;
+}
+
+#header p{
+	color: white;
+	text-transform: uppercase;
+	font-size: 16px;
+	color: white;
+	padding-left: 200px;
+}
+
+
+
+/*phan blue*/
+#content{
+	height: 200px;
+	background-color: #02a7eb;
+	z-index: 1;
+}
+
+
+/*phan menu*/
+
+.container{
+	margin-top: -240px;
+	z-index: 2;
+}
+
+#menu{
+	width: 960px;
+	height: 60px;
+	margin: 0 auto;
+	background-image: url(images/img02.jpg);
+	background-repeat: no-repeat;
+}
+
+#menu ul{
+	margin: 0;
+	padding: 20px 0 0 0;
+	list-style: none;
+	line-height: normal;
+	margin-left: 30px;
+}
+
+#menu li{
+	display: block;
+	text-align: center;
+}
+
+#menu a{
+	display: block;
+	float: left;
+	margin-right: 3px;
+	padding: 5px 20px 5px 20px;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+#menu a:hover, #menu .active a{
+	background-color: #fff;
+	color: black;
+}
+
+#wrap{
+	margin-left: 90px;
+	margin-right: 90px;
+	background-image: url(images/img03.jpg);
+	background-repeat: repeat-y;
+}
+
+/*phan ben trai*/
+
+.left{
+	padding-left: 40px;
+	padding-top: 30px;
+}
+
+.text{
+	background-color: #8fcf06;
+	text-transform: uppercase;
+	color: white;
+	padding: 5px;
+	font-weight: bold;
+}
+
+.text-2{
+	padding: 5px;
+}
+
+.text-3{
+	color: #02a7eb;
+}
+
+.comment{
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+/*phan ben phai*/
+
+.right{
+	background-color: #000000c2;
+	color: white;
+    padding-right: 20px;
+    margin-left: 44px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 31px;
+    width: 354px;
+}
+
+.right h2{
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+.right .list ul{
+	list-style: none;
+}
+
+.list ul li{
+	padding: 10px;
+	padding-left: 0px;
+	border-bottom: 1px solid #00000038;
+}
+
+.list ul li a{
+	color: #b1a7a7;
+	text-decoration: none;
+}
+.list ul li a:hover{
+	text-decoration: underline;
+}
+
+/*phan cuoi trang*/
+
+#footer{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-image: url(images/img04.jpg);
+	background-repeat: no-repeat;
+	padding-top:17px;
+	padding-bottom: 20px;
+}
